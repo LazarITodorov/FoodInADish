@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
@@ -10,6 +11,9 @@ public class Main {
 
         MyClass<String> obj = new MyClass<String>();
 
+        obj.data = "something";
+
+        Collections.sort(f);
 
 
     }
