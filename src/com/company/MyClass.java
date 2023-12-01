@@ -1,7 +1,7 @@
 package com.company;
 
-public class MyClass <Food>{
+public class MyClass <T>{
 
-  public Food data;
+  public T data;
 
 }

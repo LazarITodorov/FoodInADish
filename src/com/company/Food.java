@@ -7,9 +7,7 @@ public class Food {
 
     @Override
     public String toString() {
-        return "Food{" +
-                "name='" + name + '\'' +
-                '}';
+        return name;
     }
 
     public String getName() {

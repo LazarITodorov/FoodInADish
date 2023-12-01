@@ -7,14 +7,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList<FoodInADish<Food>> f = new ArrayList<FoodInADish<Food>>;
+        ArrayList<FoodInADish<Food>> dishes = new ArrayList<>();
 
-        MyClass<String> obj = new MyClass<String>();
+        FoodInADish<Food> bananaInADish = new FoodInADish<>();
+        Fruit banana = new Fruit();
+        banana.setName("banana");
+        banana.setKg(0.7);
+        bananaInADish.setFood(banana);
+        bananaInADish.setDishcolor("green");
 
-        obj.data = "something";
 
-        Collections.sort(f);
+        dishes.add(bananaInADish);
 
-
+        Collections.sort(dishes);
     }
 }
