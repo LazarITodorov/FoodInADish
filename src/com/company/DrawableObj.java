@@ -1,5 +1,7 @@
 package com.company;
 
+import javax.swing.*;
+
 abstract class DrawableObj {
 
           private int xCoord;
@@ -8,7 +10,7 @@ abstract class DrawableObj {
           private int height;
 
 
-          public abstract void draw();
+          public abstract JPanel draw();
 
 
 
